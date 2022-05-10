@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Judul halaman</title>
+  <link rel="stylesheet" href="dist/style.css">
+  <link rel="stylesheet" href="dist/color.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" crossorigin="anonymous">
+  <style>
+    body {
+      color:#000 !important; background-color:#f7f4f4 !important;
+      
+    }
+    body, html {
+      overflow-y: scroll;
+      scroll-behavior: smooth;
+    }
+    a {text-decoration:none;}
+    .searchbox::-webkit-input-placeholder{
+	color: #fff;
+    
+   
+  </style>
+</head>
+<body>
+  <br>
+  <br>
+  <!-- NAVIGASI -->
+  <div class="w3-container w3-bar w3-large w3-padding-small">
+  <a  href="" class="w3-bar-item w3-xlarge w3-text-theme"> <strong>LOGO</strong> </a>
+     <input class="searchbox w3-bar-item w3-theme-l1 w3-input w3-border w3-round-xxlarge" placeholder="Mau pesan apa?" type="text" style="width:50%">
+  <a href="#produk" class="w3-bar-item w3-button w3-hide-small w3-right">Produk</a>
+  <a href="#hubungi" class="w3-bar-item w3-button w3-hide-small w3-right">Hubungi</a>
+  <a href="#tentang" class="w3-bar-item w3-button w3-hide-small w3-right">Tentang</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium w3-hover-theme" onclick="myFunction('demo')">&#9776;</a>
+</div>
+
+<div id="demo1" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-margin-top w3-theme-l4 w3-card w3-text-theme">
+  <a href="#produk" class="w3-bar-item w3-button">Produk</a>
+  <a href="#hubungi" class="w3-bar-item w3-button">Hubungi</a>
+  <a href="#tentang" class="w3-bar-item w3-button">Tentang</a>
+</div>
+
+<!-- HEADER -->
+<div class="w3-container w3-row w3-margin-top w3-padding-large">
+  
+  
+  <div class="w3-container w3-center w3-half w3-margin-bottom w3-text-theme">
+    <img src="dist/images/banner.png" height="200px;" alt="">
+    <h1><strong>Apa Mood Kamu Hari Ini?</strong></h1>
+    <p>Banyak varian Coffee yang dapat mengembalikan mood mu di hari yang panas ini. Harga terjangkau, Diskon hingga 20%. Promo berlaku untuk pembelian langsung di outlet dan aplikasi.</p>
+  </div>
+  
+<!-- HEADER LOGIN -->
+<div class=" w3-half w3-border w3-card w3-margin-top">
+  
+    <h6 class="w3-center w3-text-theme">Masuk untuk pesan :</h6>
+  
+  <form class="w3-container">
+    <p>      
+    <label class="w3-text-theme"><b>Username</b></label>
+    <input class="w3-input w3-border w3-theme-l4" name="first" type="text"></p>
+    <p>      
+    <label class="w3-text-theme"><b>Email</b></label>
+    <input class="w3-input w3-border w3-theme-l4" name="last" type="email"></p>
+    <p>
+    <p>      
+    <label class="w3-text-theme"><b>Password</b></label>
+    <input class="w3-input w3-border w3-theme-l4" name="last" type="password"></p>
+    <p class="w3-center" >
+    <button class="w3-btn w3-theme w3-center w3-round" >Register</button></p>
+    <p class="w3-text-theme w3-center">Dengan mendaftarkan, kamu setuju dengan syarat dan ketentuan kami</p>
+  </form>
+</div>
+  
+  
+</div>
+<!-- END HEADER -->
+
+<hr>
+<hr>
+<!-- ITEM -->
+<div id="produk" class="w3-container w3-theme-l5 w3-padding-large">
+  <h5 class="w3-margin-top w3-text-theme">Produk Populer</h5>
+  
+  <div class="w3-row">
+    <!-- ITEM 1 -->
+    <div class="w3-quarter w3-padding-small">
+
+      <div class="w3-card w3-padding-small ">
+        <div class="w3-center">
+        <img  src="dist/images/fore.png" alt="" height="150px;">
+        </div>
+        <div class="w3-bar">
+        <h5 class="w3-text-theme w3-bar-item">Fore</h5>
+        <h5 class="w3-text-theme w3-right w3-bar-item"><strong>40.000</strong></h5>
+        </div>
+        <div class="w3-bar">
+        <p class="w3-text-theme w3-bar-item">This is the product description</p>
+        </div>
+      </div>
+      
+    </div>
+    <!-- ITEM 2 -->
+    <div class="w3-quarter w3-padding-small">
+
+      <div class="w3-card w3-padding-small w3-hover-shadow">
+        <div class="w3-center">
+        <img  src="dist/images/fore.png" alt="" height="150px;">
+        </div>
+        <div class="w3-bar">
+        <h5 class="w3-text-theme w3-bar-item">Fore</h5>
+        <h5 class="w3-text-theme w3-right w3-bar-item"><strong>40.000</strong></h5>
+        </div>
+        <div class="w3-bar">
+        <p class="w3-text-theme w3-bar-item">This is the product description</p>
+        </div>
+      </div>
+      
+    </div>
+    <!-- ITEM 3 -->
+        <div class="w3-quarter w3-padding-small">
+
+      <div class="w3-card w3-padding-small w3-hover-shadow">
+        <div class="w3-center">
+        <img  src="dist/images/fore.png" alt="" height="150px;">
+        </div>
+        <div class="w3-bar">
+        <h5 class="w3-text-theme w3-bar-item">Fore</h5>
+        <h5 class="w3-text-theme w3-right w3-bar-item"><strong>40.000</strong></h5>
+        </div>
+        <div class="w3-bar">
+        <p class="w3-text-theme w3-bar-item">This is the product description</p>
+        </div>
+      </div>
+      
+    </div>
+    <!-- ITEM 4 -->
+        <div class="w3-quarter w3-padding-small">
+
+      <div class="w3-card w3-padding-small w3-hover-shadow">
+        <div class="w3-center">
+        <img  src="dist/images/fore.png" alt="" height="150px;">
+        </div>
+        <div class="w3-bar">
+        <h5 class="w3-text-theme w3-bar-item">Fore</h5>
+        <h5 class="w3-text-theme w3-right w3-bar-item"><strong>40.000</strong></h5>
+        </div>
+        <div class="w3-bar">
+        <p class="w3-text-theme w3-bar-item">This is the product description</p>
+        </div>
+      </div>
+      
+    </div>
+    </div>
+     <hr>
+  <hr>
+  <h5 class="w3-margin-top w3-text-theme">Produk Terlaris</h5>
+    
+    <div class="w3-row">
+      
+ <!-- ITEM 5 -->
+        <div class="w3-quarter w3-padding-small">
+
+      <div class="w3-card w3-padding-small w3-hover-shadow">
+        <div class="w3-center">
+        <img  src="dist/images/ejji.png" alt="" height="150px;">
+        </div>
+        <div class="w3-bar">
+        <h5 class="w3-text-theme w3-bar-item">Ejji</h5>
+        <h5 class="w3-text-theme w3-right w3-bar-item"><strong>45.000</strong></h5>
+        </div>
+        <div class="w3-bar">
+        <p class="w3-text-theme w3-bar-item">This is the product description</p>
+        </div>
+      </div>
+      
+    </div>
+     <!-- ITEM 6 -->
+        <div class="w3-quarter w3-padding-small">
+
+      <div class="w3-card w3-padding-small w3-hover-shadow">
+        <div class="w3-center">
+        <img  src="dist/images/ejji.png" alt="" height="150px;">
+        </div>
+        <div class="w3-bar">
+        <h5 class="w3-text-theme w3-bar-item">Ejji</h5>
+        <h5 class="w3-text-theme w3-right w3-bar-item"><strong>45.000</strong></h5>
+        </div>
+        <div class="w3-bar">
+        <p class="w3-text-theme w3-bar-item">This is the product description</p>
+        </div>
+      </div>
+      
+    </div>
+     <!-- ITEM 7 -->
+        <div class="w3-quarter w3-padding-small">
+
+      <div class="w3-card w3-padding-small w3-hover-shadow">
+        <div class="w3-center">
+        <img  src="dist/images/ejji.png" alt="" height="150px;">
+        </div>
+        <div class="w3-bar">
+        <h5 class="w3-text-theme w3-bar-item">Ejji</h5>
+        <h5 class="w3-text-theme w3-right w3-bar-item"><strong>45.000</strong></h5>
+        </div>
+        <div class="w3-bar">
+        <p class="w3-text-theme w3-bar-item">This is the product description</p>
+        </div>
+      </div>
+      
+    </div>
+     <!-- ITEM 8 -->
+        <div class="w3-quarter w3-padding-small">
+
+      <div class="w3-card w3-padding-small w3-hover-shadow">
+        <div class="w3-center">
+        <img  src="dist/images/ejji.png" alt="" height="150px;">
+        </div>
+        <div class="w3-bar">
+        <h5 class="w3-text-theme w3-bar-item">Ejji</h5>
+        <h5 class="w3-text-theme w3-right w3-bar-item"><strong>45.000</strong></h5>
+        </div>
+        <div class="w3-bar">
+        <p class="w3-text-theme w3-bar-item">This is the product description</p>
+        </div>
+      </div>
+      
+    </div>
+
+  </div>
+  
+  <hr>
+  <hr>
+ <!-- HIDE ITEM -->
+  <div id="ShowItem" class="w3-hide ">
+    <h5 class="w3-margin-top w3-text-theme">Semua Produk</h5>
+  <div class="w3-row">
+    <!-- ITEM 1 -->
+    <div class="w3-quarter w3-padding-small">
+
+      <div class="w3-card w3-padding-small w3-hover-shadow">
+        <div class="w3-center">
+        <img  src="dist/images/fore.png" alt="" height="150px;">
+        </div>
+        <div class="w3-bar">
+        <h5 class="w3-text-theme w3-bar-item">Fore</h5>
+        <h5 class="w3-text-theme w3-right w3-bar-item"><strong>40.000</strong></h5>
+        </div>
+        <div class="w3-bar">
+        <p class="w3-text-theme w3-bar-item">This is the product description</p>
+        </div>
+      </div>
+      
+    </div>
+    <!-- ITEM 2 -->
+    <div class="w3-quarter w3-padding-small">
+
+      <div class="w3-card w3-padding-small w3-hover-shadow">
+        <div class="w3-center">
+        <img  src="dist/images/fore.png" alt="" height="150px;">
+        </div>
+        <div class="w3-bar">
+        <h5 class="w3-text-theme w3-bar-item">Fore</h5>
+        <h5 class="w3-text-theme w3-right w3-bar-item"><strong>40.000</strong></h5>
+        </div>
+        <div class="w3-bar">
+        <p class="w3-text-theme w3-bar-item">This is the product description</p>
+        </div>
+      </div>
+      
+    </div>
+    <!-- ITEM 3 -->
+        <div class="w3-quarter w3-padding-small">
+
+      <div class="w3-card w3-padding-small w3-hover-shadow">
+        <div class="w3-center">
+        <img  src="dist/images/fore.png" alt="" height="150px;">
+        </div>
+        <div class="w3-bar">
+        <h5 class="w3-text-theme w3-bar-item">Fore</h5>
+        <h5 class="w3-text-theme w3-right w3-bar-item"><strong>40.000</strong></h5>
+        </div>
+        <div class="w3-bar">
+        <p class="w3-text-theme w3-bar-item">This is the product description</p>
+        </div>
+      </div>
+      
+    </div>
+    <!-- ITEM 4 -->
+        <div class="w3-quarter w3-padding-small">
+
+      <div class="w3-card w3-padding-small w3-hover-shadow">
+        <div class="w3-center">
+        <img  src="dist/images/fore.png" alt="" height="150px;">
+        </div>
+        <div class="w3-bar">
+        <h5 class="w3-text-theme w3-bar-item">Fore</h5>
+        <h5 class="w3-text-theme w3-right w3-bar-item"><strong>40.000</strong></h5>
+        </div>
+        <div class="w3-bar">
+        <p class="w3-text-theme w3-bar-item">This is the product description</p>
+        </div>
+      </div>
+      
+    </div>
+    </div>
+    
+  
+    
+    <div class="w3-row">
+      
+  <!-- ITEM 5 -->
+        <div class="w3-quarter w3-padding-small">
+
+      <div class="w3-card w3-padding-small w3-hover-shadow">
+        <div class="w3-center">
+        <img  src="dist/images/ejji.png" alt="" height="150px;">
+        </div>
+        <div class="w3-bar">
+        <h5 class="w3-text-theme w3-bar-item">Ejji</h5>
+        <h5 class="w3-text-theme w3-right w3-bar-item"><strong>45.000</strong></h5>
+        </div>
+        <div class="w3-bar">
+        <p class="w3-text-theme w3-bar-item">This is the product description</p>
+        </div>
+      </div>
+      
+    </div>
+     <!-- ITEM 6 -->
+        <div class="w3-quarter w3-padding-small">
+
+      <div class="w3-card w3-padding-small w3-hover-shadow">
+        <div class="w3-center">
+        <img  src="dist/images/ejji.png" alt="" height="150px;">
+        </div>
+        <div class="w3-bar">
+        <h5 class="w3-text-theme w3-bar-item">Ejji</h5>
+        <h5 class="w3-text-theme w3-right w3-bar-item"><strong>45.000</strong></h5>
+        </div>
+        <div class="w3-bar">
+        <p class="w3-text-theme w3-bar-item">This is the product description</p>
+        </div>
+      </div>
+      
+    </div>
+     <!-- ITEM 7 -->
+        <div class="w3-quarter w3-padding-small">
+
+      <div class="w3-card w3-padding-small w3-hover-shadow">
+        <div class="w3-center">
+        <img  src="dist/images/ejji.png" alt="" height="150px;">
+        </div>
+        <div class="w3-bar">
+        <h5 class="w3-text-theme w3-bar-item">Ejji</h5>
+        <h5 class="w3-text-theme w3-right w3-bar-item"><strong>45.000</strong></h5>
+        </div>
+        <div class="w3-bar">
+        <p class="w3-text-theme w3-bar-item">This is the product description</p>
+        </div>
+      </div>
+      
+    </div>
+     <!-- ITEM 8 -->
+        <div class="w3-quarter w3-padding-small">
+
+      <div class="w3-card w3-padding-small w3-hover-shadow">
+        <div class="w3-center">
+        <img  src="dist/images/ejji.png" alt="" height="150px;">
+        </div>
+        <div class="w3-bar">
+        <h5 class="w3-text-theme w3-bar-item">Ejji</h5>
+        <h5 class="w3-text-theme w3-right w3-bar-item"><strong>45.000</strong></h5>
+        </div>
+        <div class="w3-bar">
+        <p class="w3-text-theme w3-bar-item">This is the product description</p>
+        </div>
+      </div>
+      
+      </div>
+
+  </div>
+  </div>
+  <div class="w3-margin-bottom">
+  <div id="Switch" class="w3-center w3-margin-top w3-show">
+  <button style="width:60%;" onclick="myFunction('ShowItem')"  class="w3-button w3-light-grey w3-button w3-theme w3-hover-theme w3-hover-shadow w3-round">Tampikan lebih banyak</button>
+  </div>
+  
+   <div id="ShowItem1" class="w3-center w3-margin-top w3-hide">
+  <button style="width:60%;" onclick="myFunction('Switch')" class="w3-button w3-light-grey w3-button w3-theme w3-hover-theme w3-hover-shadow w3-round">Tampikan lebih sedikit</button>
+  </div>
+  </div>
+</div>
+
+<!-- KONTAK -->
+<div id="hubungi" class="w3-container w3-padding-large w3-theme-l2 ">
+      <div id="item-foot" class="w3-container w3-center w3-margin-bottom">
+      <h5><strong>Hubungi kami di :</strong></h5>
+      <a href=""><i class="fab fa-facebook fa-3x w3-margin"></i></a>
+      <a href=""><i class=" fab fa-whatsapp fa-3x w3-margin"></i></a>
+      <a href=""><i class=" fab fa-instagram fa-3x w3-margin"></i></a>
+      <br>
+<br>
+    </div>
+</div>
+
+<!-- TENTANG -->
+<div id="tentang" class="w3-container w3-padding-large w3-theme-l1">
+      <div id="item-foot" class="w3-container w3-center w3-margin-bottom">
+      <h5><strong>Tentang kami :</strong></h5>
+      <p>Lorem ipsum dolor sit amet. Aut libero accusantium et impedit voluptatibus non earum animi ad distinctio necessitatibus vel distinctio fugiat et officiis fugit. Id doloribus suscipit ab impedit fuga 33 deserunt perferendis eum laboriosam harum reiciendis nihil et dolor libero qui molestias autem. Vel dolores similique ut atque quia sed voluptatem assumenda. Et fugit itaque aut accusantium adipisci ut rerum debitis ex cumque saepe. Id autem deleniti ut eius vero et odit provident.</p>
+      </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+<div class="w3-container w3-padding-large w3-theme">
+<div class="w3-cell-row ">  
+  <div class="w3-center w3-cell ">© 2022 <b>Kopiku</b>. All Right Reserverd. Design by <b>TeguhS</b></div>
+</div>
+</div>
+</footer>
+
+
+<!-- JAVASCRIPT -->
+<script>
+function myFunction() {
+  var i = document.getElementById("demo1");
+  if (i.className.indexOf("w3-show") == -1) {
+    i.className += " w3-show";
+  } else { 
+    i.className = i.className.replace(" w3-show", "");
+  }
+  var y = document.getElementById("ShowItem");
+  if (y.className.indexOf("w3-show") == -1) {
+    y.className += " w3-show";
+  } else { 
+    y.className = y.className.replace(" w3-show", "");
+  }
+  var z = document.getElementById("ShowItem1");
+  if (z.className.indexOf("w3-show") == -1) {
+    z.className += " w3-show";
+  } else { 
+    z.className = z.className.replace(" w3-show", "");
+  }
+  
+  var a = document.getElementById("Switch");
+  if (a.className.indexOf("w3-show") == -1) {
+    a.className += " w3-show";
+  } else { 
+    a.className = z.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+
+</body>
+</html>
+
+
